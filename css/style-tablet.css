@@ -1,4 +1,6 @@
 @media screen and (max-width: 1200px) and (min-width:769px) {
+	
+
 .header{
 	background-color:#000000;
 	max-width:100vw;
@@ -110,6 +112,10 @@ margin-right: 0vw;
 		margin-left: 17vw!important;
 
 	}
+	.gallery__select-title{
+		margin-top: 0vw!important;
+		margin-left: -0.4vw!important;
+	}
 	.banner__button{
 		width: 30.2vw;
 		height: 6.83vw;
@@ -215,7 +221,7 @@ margin-right: 0vw;
 		height: 3.4vw;
 		margin-left: -7.3vw;
 		width: 16vw;
-		padding-right: 10.6vw;
+		padding-right: 11vw;
 		border: white 1px solid;
 		border-radius: 6px;
 	}	
@@ -227,7 +233,7 @@ margin-right: 0vw;
 		font-weight: 400;
 		font-size: 1.33vw;
 		line-height: 2.66vw;
-		letter-spacing: 0.2vw;
+		letter-spacing: 0.099vw;
 		margin-top: 0.1vw;
 	}
 	.gallery__partright{
@@ -522,6 +528,11 @@ margin-right: 0vw;
 
 	.gallery__linck{
 		color:#6D4D85;
+	}
+	.gallery__dropdown{
+		font-size: 1.56vw!important;;
+		font-family: "OpenSans-Regular";
+		font-weight: 400;
 	}
 	
 	.container-catalog{

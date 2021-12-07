@@ -247,8 +247,13 @@
 				font-weight: 400;
 				font-size: 2.08vw;
 				line-height: 2.66vw;
-				margin-top: 0.7vw;
+				margin-top: 0.5vw!important;
+				margin-left: -0.7vw!important;
 			}
+			.gallery__expand{
+				margin-left: -4vw!important;
+			}
+			
 			.gallery__partright{
 			width:90.02vw;
 			overflow: hidden;
@@ -676,6 +681,11 @@
 			}
 			.gallery-right-btns{
 				margin-top: -12vw!important;
+			}
+			.gallery__dropdown{
+				font-size: 2.08vw!important;;
+				font-family: "OpenSans-Regular";
+				font-weight: 400;
 			}
 			.list--item__btn{
 				position: absolute;

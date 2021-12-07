@@ -55,19 +55,9 @@
   .active-list--item {
     display: block;
    }
-  .list--item__btn.active--btn:after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 100%;
-    background-color: #7943a4;
-    bottom: 0;
-    left: 0;
-    color:white;
-    
-    animation: anim 2s infinite ease-in-out;
-  }
+ 
   
+ 
   
   
   @keyframes anim {
@@ -88,12 +78,29 @@
   .list--item__btn{
     border: 0;
     outline: 0;
-    margin-left: -0.9vw;
-    margin-right: 5.0vw;
+    margin-left: -1.7vw;
+    margin-right: -0.5vw;
     font-family: "OpenSans-Regular";
     font-weight: 400;
-    margin-top: 0.5vw;
+    margin-top: -0.3vw;
+    width: 9vw;
       }
+  .banner__genres-imp{
+    width: 13vw;
+    margin-left: -3.5vw;
+  }
+  .banner__postimp{
+    width: 15vw;
+    margin-left: -3.7vw;
+  }
+  .banner__avangard{
+    width: 10vw;
+    margin-left: -4vw;
+  } 
+  .banner__futurism{
+    width: 10vw;
+    margin-left: -3.5vw;
+  }  
   
   /*Дополнительные стили подменю */
   .banner__li_first{
@@ -332,6 +339,7 @@
       width: 1.26vw;
       height: 0.52vw;
       margin-left: -6.6vw;
+      fill: white !important;
     
     }
     .banner__icon-expand{

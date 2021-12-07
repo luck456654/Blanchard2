@@ -288,131 +288,130 @@
 			}
 			
 			.gallery__paint1{
-				background-image: url('../img/gall__img1-1.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint2{
-				background-image: url('../img/gall__img1-2.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint3{
-				background-image: url('../img/gall__img2-1.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint4{
-				background-image: url('../img/gall__img2-2.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint5{
-				background-image: url('../img/gall__img3-1.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint6{
-				background-image: url('../img/gall__img3-2.jpg');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint7{
-				background-image: url('../img/gall__img4-1.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint8{
-				background-image: url('../img/gall__img4-2.png');
-				width: 18.23vw;
-				height: 18.23vw;
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint9{
-				background-image: url('../img/gall__img5-1.png');
-				width: 18.23vw;
-				height: 18.23vw;
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint10{
-				background-image: url('../img/gall__img5-2.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint11{
-				background-image: url('../img/gall__img6-1.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint12{
-				background-image: url('../img/gall__img6-2.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint13{
-				background-image: url('../img/gall__img7-1.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint14{
-				background-image: url('../img/gall__img7-2.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint15{
-				background-image: url('../img/gall__img8-1.png');
-			
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint16{
-				background-image: url('../img/gall__img8-2.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint17{
-				background-image: url('../img/gall__img9-1.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint18{
-				background-image: url('../img/gall__img9-2.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint19{
-				background-image: url('../img/gall__img10-1.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint20{
-				background-image: url('../img/gall__img10-2.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint21{
-				background-image: url('../img/gall__img11-1.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint22{
-				background-image: url('../img/gall__img11-2.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint23{
-				background-image: url('../img/gall__img12-1.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			.gallery__paint24{
-				background-image: url('../img/gall__img12-2.png');
-				background-size: cover;
-				overflow: hidden;
-			}
-			
+	background-image: url('../img/gall__img1-1.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint2{
+	background-image: url('../img/gall__img1-2.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint3{
+	background-image: url('../img/gall__img2-1.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint4{
+	background-image: url('../img/gall__img2-2.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint5{
+	background-image: url('../img/gall__img3-1.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint6{
+	background-image: url('../img/gall__img3-2.jpg');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint7{
+	background-image: url('../img/gall__img4-1.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint8{
+	background-image: url('../img/gall__img4-2.png');
+	width: 18.23vw;
+	height: 18.23vw;
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint9{
+	background-image: url('../img/gall__img5-1.png');
+	width: 18.23vw;
+	height: 18.23vw;
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint10{
+	background-image: url('../img/gall__img5-2.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint11{
+	background-image: url('../img/gall__img6-1.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint12{
+	background-image: url('../img/gall__img6-2.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint13{
+	background-image: url('../img/gall__img7-1.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint14{
+	background-image: url('../img/gall__img7-2.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint15{
+	background-image: url('../img/gall__img8-1.png');
+
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint16{
+	background-image: url('../img/gall__img8-2.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint17{
+	background-image: url('../img/gall__img9-1.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint18{
+	background-image: url('../img/gall__img9-2.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint19{
+	background-image: url('../img/gall__img10-1.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint20{
+	background-image: url('../img/gall__img10-2.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint21{
+	background-image: url('../img/gall__img11-1.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint22{
+	background-image: url('../img/gall__img11-2.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint23{
+	background-image: url('../img/gall__img12-1.png');
+	background-size: cover;
+	overflow: hidden;
+}
+.gallery__paint24{
+	background-image: url('../img/gall__img12-2.png');
+	background-size: cover;
+	overflow: hidden;
+}
 			
 			.gallery__filtr-main{
 				margin-left: 8.1vw;
@@ -515,6 +514,11 @@
 				font-family: "OpenSans-Regular";
 				font-weight: 400;
 				
+			}
+			.gallery__menu-item{
+				font-size: 5vw!important;
+				font-weight: 400;
+				font-family: "OpenSans-Regular";
 			}
 			
 			.gallery__btn--prev{

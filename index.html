@@ -8,7 +8,7 @@
     <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
 
     <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/swiper-banner.css">
     <link rel="stylesheet" type="text/css" href="css/burger.css">
@@ -18,9 +18,9 @@
     <link rel="stylesheet" type="text/css" href="css/style-descktop.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
-	
-   
-	<title>Blanchard</title>
+
+
+    <title>Blanchard</title>
 </head>
 
 <body id="body">
@@ -142,11 +142,13 @@
                 <ul class="list banner__submenu">
 
                     <li class="list--item banner__submenu-li banner__genres-content banner__submenu-li-first">
-                        <button class="list--item__btn">Реализм</button>
-                        <svg class="banner__icon-expand banner__svg-icon" width="0.63vw" height="0.36vw" fill="none"
-                            viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 1L6 6L1 1" stroke="white" />
-                        </svg>
+
+                        <button id="button1" name="noactive" class="list--item__btn">Реализм
+                            <svg id="expand1" class="banner__icon-expand banner__svg-icon" fill="none" width="0.63vw"
+                                height="0.36vw" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="currentcolor" />
+                            </svg>
+                        </button>
 
                         <div class="container--dropdown">
                             <ul class="container--dropdown-list banner__card">
@@ -165,14 +167,15 @@
                             </ul>
                         </div>
                     </li>
+
                     <li class="list--item banner__submenu-li banner__genres-content banner__submenu-imp">
 
-                        <button class="list--item__btn">Импрессионизм</button>
-                        <svg class="banner__icon-expand banner__svg-icon" width="0.63vw" height="0.36vw" fill="none"
-                            viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 1L6 6L1 1" stroke="white" />
+                        <button id="button2" name="noactive" class="list--item__btn banner__genres-imp">Импрессионизм
+                            <svg id="expand2" class="banner__icon-expand banner__svg-icon" fill="none" width="0.63vw"
+                            height="0.36vw" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 1L6 6L1 1" stroke="currentcolor" />
                         </svg>
-
+                        </button>    
                         <div class="container--dropdown">
                             <ul class="container--dropdown-list banner__card">
                                 <a href="#" class="banner__paint-linck">
@@ -190,12 +193,15 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="list--item banner__submenu-li banner__genres-content banner__submenu-li-postimp">
-                        <button class="list--item__btn">Постимпрессионизм</button>
-                        <svg class="banner__icon-expand banner__svg-icon" width="0.63vw" height="0.36vw" fill="none"
-                            viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 1L6 6L1 1" stroke="white" />
+                    <li class="list--item banner__submenu-li banner__genres-content banner__submenu-imp">
+
+                        <button id="button3" name="noactive"
+                            class="list--item__btn banner__btn banner__postimp">Постимпрессионизм
+                            <svg id="expand3" class="banner__icon-expand banner__svg-icon" fill="none" width="0.63vw"
+                            height="0.36vw" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 1L6 6L1 1" stroke="currentcolor" />
                         </svg>
+                    </button>
                         <div class="container--dropdown">
                             <ul class="container--dropdown-list banner__card">
                                 <a href="#" class="banner__paint-linck">
@@ -213,12 +219,17 @@
                             </ul>
                         </div>
                     </li>
+
+
+
+
                     <li class="list--item banner__submenu-li banner__genres-content banner__submenu-li-avangard">
-                        <button class="list--item__btn">Авангард</button>
-                        <svg class="banner__icon-expand banner__svg-icon" width="0.63vw" height="0.36vw" fill="none"
-                            viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 1L6 6L1 1" stroke="white" />
+                        <button id="button4" name="noactive" class="list--item__btn banner__avangard">Авангард
+                        <svg id="expand4" class="banner__icon-expand banner__svg-icon" fill="none" width="0.63vw"
+                            height="0.36vw" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 1L6 6L1 1" stroke="currentcolor" />
                         </svg>
+                    </button>
                         <div class="container--dropdown">
                             <ul class="container--dropdown-list banner__card">
                                 <a href="#" class="banner__paint-linck">
@@ -237,11 +248,12 @@
                         </div>
                     </li>
                     <li class="list--item banner__submenu-li banner__genres-content banner__submenu-li-futorism">
-                        <button class="list--item__btn">Футуризм</button>
-                        <svg class="banner__icon-expand banner__svg-icon" width="0.63vw" height="0.36vw" fill="none"
-                            viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 1L6 6L1 1" stroke="white" />
-                        </svg>
+                        <button id="button5" name="noactive" class="list--item__btn banner__avangard">Футуризм
+                            <svg id="expand5" class="banner__icon-expand banner__svg-icon" fill="none" width="0.63vw"
+                                height="0.36vw" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="currentcolor" />
+                            </svg>
+                        </button>
                         <div class="container--dropdown">
                             <ul class="container--dropdown-list banner__card ">
                                 <a href="#" class="banner__paint-linck">
@@ -300,12 +312,12 @@
 
                             <div class="container--dropdown ">
                                 <ul class="container--dropdown-list">
-                                    <li class="container--dropdown-list__item gallery__dropdown">Рисунок</li>
-                                    <li class="container--dropdown-list__item gallery__dropdown">Скульптура</li>
+                                    <li class="container--dropdown-list__item gallery__dropdown gallery__menu gallery__menu-item">Рисунок</li>
+                                    <li class="container--dropdown-list__item gallery__dropdown gallery__menu gallery__menu-item">Скульптура</li>
                                 </ul>
                             </div>
                         </li>
-                        <img src="./img/icon-expand.svg" class="banner__icon-expand banner__icon-expand-main">
+                        <img src="./img/icon-expand.svg" class="banner__icon-expand-main gallery__expand">
                     </ul>
                     <div class="gallery__download">Вам предоставляется 10 бесплатных скачиваний. Для
                         увеличения количества скачиваний <a href="#" class="gallery__linck">авторизуйтесь</a>, либо
@@ -313,15 +325,15 @@
                     </div>
                 </div>
                 <div class="gallery__partright ">
-                   <div class="container">
-                    <div class="gallery-right-btns">
-                        <button class="sw-btn gallery__btn--prev"></button>
-                        <div class="gallery__pagination"></div>
-                        <button class="sw-btn gallery__btn--next"></button>
-                        
-                        
-                    </div>
-                        
+                    <div class="container">
+                        <div class="gallery-right-btns">
+                            <button class="sw-btn gallery__btn--prev"></button>
+                            <div class="gallery__pagination"></div>
+                            <button class="sw-btn gallery__btn--next"></button>
+
+
+                        </div>
+
                         <div class="swiper">
                             <div class="gallery__right--content">
                                 <div class="swiper-wrapper">
@@ -900,9 +912,9 @@
             </div>
         </div>
     </footer>
-    
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
     <script>
         const swiper = new Swiper('.banner__container', {
             // Default parameters
@@ -929,14 +941,14 @@
 
         });
     </script>
-	<script src="js/script.js" defer></script>
+    <script src="js/script.js" defer></script>
     <script src="js/menu.js" defer></script>
     <script src="js/burger.js" defer></script>
     <script src="js/script.js" defer></script>
     <script src="js/form-search.js" defer></script>
     <script src="js/gallery.js" defer></script>
-    
-    
+
+
 </body>
 
 </html>
