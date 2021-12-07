@@ -17,9 +17,9 @@
 			}
 			
 		.header-container__burger{
-			margin-left: 1.5vw!important;
-			width: 5vw!important;
-			margin-bottom: -3.5vw!important;
+			margin-left: 1.5vw;
+			width: 5vw;
+			margin-bottom: -3.5vw;
 			
 		}	
 		.header__header-logo{
@@ -65,7 +65,7 @@
 
 		
 		.banner__img1{
-					background-image: url(../img/banner3__img1.png)!important;
+					background-image: url(../img/banner3__img1.png);
 					background-size: cover;
 					background-repeat: no-repeat;
 					height: 87vw!important;
@@ -240,11 +240,11 @@
 				border-radius: 6px;
 			}	
 			.gallery__select-title{
-				padding-left: 2.8vw!important;
-				margin-right: 2vw!important;
-				font-family: "OpenSans-Regular"!important;
+				padding-left: 2.8vw;
+				margin-right: 2vw;
+				font-family: "OpenSans-Regular";
 				font-style: normal;
-				font-weight: 400!important;
+				font-weight: 400;
 				font-size: 2.08vw;
 				line-height: 2.66vw;
 				margin-top: 0.7vw;
@@ -394,13 +394,13 @@
 				overflow: hidden;
 			}
 			.gallery__filter{
-				margin-top: -1vw!important;
-				font-family: "OpenSans-Regular"!important;
-				font-style: normal!important;
-				font-weight: 600!important;
-				font-size:2.08vw!important;
-				line-height: 1.63vw!important;
-				color: #FFFFFF!important;
+				margin-top: -1vw;
+				font-family: "OpenSans-Regular";
+				font-style: normal;
+				font-weight: 600;
+				font-size:2.08vw;
+				line-height: 1.63vw;
+				color: #FFFFFF;
 				margin-left:2.3vw;
 				letter-spacing: 0.05vw;
 				
@@ -419,23 +419,23 @@
 				margin-top: 1.2vw;
 			}
 			.gallery__download{
-				width: 84vw!important;
+				width: 84vw;
 				font-family: "OpenSans-Regular";
 				font-style: normal;
-				font-weight: 600!important;
+				font-weight: 600;
 				font-size: 2.08vw;
-				margin-top: 100.8vw!important;
-				margin-left: 2.2vw!important;
+				margin-top: 100.8vw;
+				margin-left: 2.2vw;
 				line-height: 3.816vw;
 				letter-spacing: 0.055vw;
 			}
 			.gallery__img{
-				width: 28.23vw!important;
-				height: 36.23vw!important;
-				margin-left: -2vw!important;
-				margin-top: 21.1vw!important;
-				margin-bottom: 0.1vw!important;
-				padding-right: 13.1vw!important;
+				width: 28.23vw;
+				height: 36.23vw;
+				margin-left: -2vw;
+				margin-top: 21.1vw;
+				margin-bottom: 0.1vw;
+				padding-right: 13.1vw;
 				
 			}
 			.swiper__paints{
@@ -458,11 +458,11 @@
 				margin-bottom: 0.1vw;
 			}
 			.gallery__img_first{
-				width: 41.53vw!important;
-				height: 36.23vw!important;
-				margin-left: 0.1vw!important;
-				margin-top: 21.1vw!important;
-				margin-bottom: 0.1vw!important;
+				width: 41.53vw;
+				height: 36.23vw;
+				margin-left: 0.1vw;
+				margin-top: 21.1vw;
+				margin-bottom: 0.1vw;
 			}
 			.gallery__glass{
 				background-color: rgba(0, 0, 0, 0.5);
@@ -482,40 +482,40 @@
 				
 			}
 			.gallery__paint-first{
-			margin-left: 0vw!important;
-    		margin-top: -2vw!important;
+			margin-left: 0vw;
+    		margin-top: -1vw;
     		width: 42vw!important;
-    		height: 38vw!important;
+    		height: 36vw;
 			}
 			.gallery__second-row{
-				margin-left: 0vw!important;
-				margin-top: -3vw!important;
+				margin-left: 0vw;
+				margin-top: -2vw;
 				width: 42vw!important;
-				height: 36vw!important;	
+				height: 36vw;	
 			}
 			.gallery__paint-second{
-				margin-top: -2vw!important;
-				margin-left: -1.8vw!important;
-				width: 41vw!important;
-				height: 38vw!important;
+				margin-top: -1vw;
+				margin-left: -2vw;
+				width: 42vw!important;
+				height: 36vw;
 			}
 			.gallery__second-second{
-				margin-left: -2vw!important;
-				margin-top: -3vw!important;
-				width: 41vw!important;
-				height: 36vw!important;
+				margin-left: -2vw;
+				margin-top: -2vw;
+				width: 42vw!important;
+				height: 36vw;
 			}
 			.gallery__paint-third{
-				margin-top: -2vw!important;
-				margin-left: -1.8vw!important;
-				width: 41vw!important;
-				height: 38vw!important;
+				margin-top: -1vw;
+				margin-left: -2vw;
+				width: 42vw!important;
+				height: 36vw;
 			}
 			.gallery__third-row{
-				margin-left: -2vw!important;
-				margin-top: -3vw!important;
-				width: 41vw!important;
-				height: 36vw!important;
+				margin-left: -2vw;
+				margin-top: -2vw;
+				width: 42vw!important;
+				height: 36vw;
 			}
 
 			.gallery__linck{
@@ -637,38 +637,42 @@
 			  }	
 			  .gallery__glass{
 				background-color: rgba(0, 0, 0, 0.5);
-				width: 36.63vw!important;
-				height: 33.63vw!important;
-				margin-left: 2.30vw!important;
-				margin-top: 1.30vw!important;
+				width: 36.63vw;
+				height: 33.63vw;
+				margin-left: 2.30vw;
+				margin-top: 1.30vw;
 				opacity: 0;
 			}
 			
 			.gallery__glass-paint{
-				width: 10.22vw!important;
-				height: 10.11vw!important;
-				margin-left: 14.73vw!important;
-				margin-top: 12.73vw!important;
+				width: 10.22vw;
+				height: 10.11vw;
+				margin-left: 14.73vw;
+				margin-top: 12.73vw;
 				
 			}	
 			.gallery__btn--prev{
-				margin-top:21vw!important ;
-				margin-left:0vw!important;
-				width: 3.91vw!important;
-				height:3.91vw!important;
+				background-image: url(../img/gallery-prev.png);
+				background-repeat: no-repeat;
+				margin-top:20vw ;
+				margin-left:0vw;
+				width: 5.91vw;
+				height:3.91vw;
 			}	
 			.gallery__btn--next{
-				margin-top:21vw!important ;
-				margin-left:13vw!important;
-				width: 3.91vw!important;
-				height:3.91vw!important;
+				background-image: url(../img/gallery-next.png);
+				background-repeat: no-repeat;
+				margin-top:20vw ;
+				margin-left:2vw;
+				width: 5.91vw;
+				height:3.91vw;
 			} 
 			.gallery__pagination{
 				font-size:2.08vw;
 				font-family: "OpenSans-Regular";
 				font-weight: normal;
-				margin-top: 21vw;
-				margin-left: 6vw;
+				margin-top: 20vw;
+				margin-right: -85vw;
 			}
 			.gallery-right-btns{
 				margin-top: -12vw!important;

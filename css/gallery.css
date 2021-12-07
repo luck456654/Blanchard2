@@ -17,30 +17,8 @@
 .gallery__right--content {
   width: 100%;
   overflow: hidden;
-}
+}  
 
-.gallery__btn--prev {
-    margin-top: -1vw;
-    position: absolute;
-    cursor: pointer;
-    background-image: url(../img/gallery-prev.png);
-    background-size: cover;
-    width: 1.56vw;
-    height: 1.56vw;
-    z-index: 5;
-    margin-left: 3.5vw;
-}
-.gallery__btn--next {
-    margin-top: -1vw;
-    position: absolute;
-    cursor: pointer;
-    background-image: url(../img/gallery-next.png);
-    background-size: cover;
-    width: 1.56vw;
-    height: 1.56vw;
-    z-index: 5;
-    margin-left: 9vw;
-}
 .gallery-section .gallery__slide {
   position: relative;
   
@@ -59,11 +37,6 @@
   
   margin-bottom: 40px;
 }
-.gallery__pagination--right {
-  font-size: 0.8vw;
-  font-family: "OpenSans-Regular";
-  font-weight: normal;
-}
 .swiper-btn--prev {
   margin-right: 20px;
 }
@@ -78,67 +51,9 @@
 .swiper-slide--img {
   object-fit: cover;
   width: 95%;
-  height: 105%;
   object-position: center;
 }
-.gallery__paint-first{
-  margin-right: 0vw!important;
-  margin-top: 0.1vw;
-  margin-left: 3.2vw;
-  margin-bottom: 1.1vw;
-  height: 18vw;
-  width: 18.3vw;
-  }
- .gallery__second-row{
-  
-   margin-left: 3.5vw;
-   height: 18vw;
-   width: 18vw;
- }
- .gallery__second-second{
-  margin-left: 1vw;
-  height: 18vw;
-  width: 18.3vw;
-}
-.gallery__paint-second{
-  height: 18vw;
-  margin-top: 0vw;
-  margin-left: 1vw;
-  width: 18.3vw;
-}
-.gallery__paint-third{
-  margin-left: -1vw;
-  margin-top: -1vw;
-  height: 19vw;
-  width: 18.3vw;
-}
-.gallery__first{
-  margin-left: 3.1vw;
-  margin-right: 1.1vw;
-  margin-top: -2.2vw!important;
-  margin-bottom: 1.1vw;
-  width: 18.3vw;
-  
-}
-.gallery__second{
-  margin-left: 1vw;
-  margin-right: 1.1vw;
-  margin-top: -2.2vw;
-  margin-bottom: 1.1vw;
-  width: 18.3vw;
-}
-.gallery__third{
-  margin-left: 2.1vw;
-  margin-right: 1.1vw;
-  margin-top: -2.2vw;
-  margin-bottom: 1.1vw;
-  width: 18.3vw;
-}
-.gallery__third-row{
-  margin-left: -1vw;
-  height:18vw;
-  width: 18.3vw;
-  }
+
 
 @media screen and (max-width: 992px) { 
   .gallery-section .gallery__container {
