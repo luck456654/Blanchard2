@@ -124,14 +124,14 @@
 			.banner__button{
 				width: 41.2vw;
 				height: 9.83vw;
-				margin-left: 6.2vw;
+				
 				color: white;
 				background: #9D5CD0;
 				border-radius: 100px;
 				font-size: 2.34vw;
 				position: absolute;
 				z-index: 1;
-				margin-top: -24vw;
+				
 				font-family:"OpenSans-Bold";
 				font-style: normal;
 				font-weight: bold;
@@ -586,7 +586,7 @@
 			  .form-btn__open:hover rect,
 			  .form-btn__submit:hover path,
 			  .form-btn__submit:hover rect {
-				fill: orange;
+				fill: #7943A4;
 			  }
 			  .form-btn__submit {
 				margin-right: 2.60vw;
@@ -657,16 +657,13 @@
 				
 			}	
 			.gallery__btn--prev{
-				background-image: url(../img/gallery-prev.png);
-				background-repeat: no-repeat;
+				transform: rotate(180deg);
 				margin-top:20vw ;
 				margin-left:0vw;
 				width: 5.91vw;
 				height:3.91vw;
 			}	
 			.gallery__btn--next{
-				background-image: url(../img/gallery-next.png);
-				background-repeat: no-repeat;
 				margin-top:20vw ;
 				margin-left:2vw;
 				width: 5.91vw;
@@ -690,5 +687,19 @@
 			.list--item__btn{
 				position: absolute;
 				z-index: 4;
+			}
+			.banner__button-outline{
+				margin-left: 5.3vw;
+				margin-top: -25.2vw;
+				z-index: 1;
+				position: absolute;
+				width:17.5vw;
+				height: 5vw;
+				border-radius: 100px;
+				padding-left: 1vw;
+				padding-right: 25vw;
+				padding-top: 1vw;
+				padding-bottom: 6vw;
+					
 			}
 		}

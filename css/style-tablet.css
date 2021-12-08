@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) and (min-width:769px) {
-	
+
 
 .header{
 	background-color:#000000;
@@ -119,14 +119,12 @@ margin-right: 0vw;
 	.banner__button{
 		width: 30.2vw;
 		height: 6.83vw;
-		margin-left: 5.2vw;
 		color: white;
 		background: #9D5CD0;
 		border-radius: 100px;
 		font-size: 1.50vw;
 		position: absolute;
 		z-index: 1;
-		margin-top: -18vw;
 		font-family:"OpenSans-Bold";
 		font-style: normal;
 		font-weight: bold;
@@ -456,8 +454,7 @@ margin-right: 0vw;
 		z-index: 1;
 		margin-top: -1.5vw;
 		margin-left: 4vw;
-		background-image:  url(../img/gallery-prev.png);
-		background-repeat: no-repeat;
+		transform: rotate(180deg);
 		
 	}
 	.gallery__btn--next{
@@ -468,8 +465,7 @@ margin-right: 0vw;
 		margin-left: 13vw;
 		margin-top: -1.5vw;
 		margin-left: 13vw;
-		background-image:  url(../img/gallery-next.png);
-		background-repeat: no-repeat;
+		
 		
 	}
 	.gallery__paint-first{
@@ -594,7 +590,7 @@ margin-right: 0vw;
 	  .form-btn__open:hover rect,
 	  .form-btn__submit:hover path,
 	  .form-btn__submit:hover rect {
-		fill: orange;
+		fill: #7943A4;
 	  }
 	  .form-btn__submit {
 		margin-right: 20px;
@@ -625,7 +621,7 @@ margin-right: 0vw;
 		
 		transition: transform .3s ease-in-out, opacity .3s ease-in-out .2s;
 		margin-left: -19.9vw;
-		margin-top: -24.9vw;
+		margin-top: -43.9vw!important;
 	  }
 	  
 	  .form__input {
@@ -642,6 +638,20 @@ margin-right: 0vw;
 	  .form__active {
 		transform: translate(0, -50%);
 		opacity: 1;
-		margin-top: -36.5vw;
-	  }			
+		margin-top: -27.5vw;
+	  }	
+	  .banner__button-outline{
+		margin-left: 4.2vw;
+		margin-top: -19.2vw;
+		z-index: 1;
+		position: absolute;
+		width:17.5vw;
+		height: 5vw;
+		border-radius: 100px;
+		padding-left: 1vw;
+		padding-right: 14vw;
+		padding-top: 1vw;
+		padding-bottom: 3vw;
+			
+	} 		
 }

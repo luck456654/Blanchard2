@@ -173,17 +173,23 @@ select{
 .gallery__pagination{
 	color: white;
 }
+.banner__button-outline:hover{
+	border: 0.10vw solid #C283F3;
+}
+.gallery__btn--next:hover,
+.gallery__btn--prev:hover{
+	fill:#7943A4;
+}
+.gallery__menu{
+	height: 1vw!important;
+} 
 
-
-	@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) {
 		.list--item__btn.active--btn:focus{
 			color: white;
-			padding-left: 0.1vw;
-			padding-right: 0.1vw;
-			padding-top: 0.1vw;
-			padding-bottom: 0.1vw!important;
 			background-color: #7943a4;
 			fill: none;
+			height: 3vw;
 		}
 		.header-container__burger{
 			display:none;
@@ -442,7 +448,7 @@ margin-left: auto!important;
 	overflow-y: scroll;
 	padding-top: 0.5vw;
 	padding-bottom: 0.5vw;
-	margin-left: -1.2vw;
+	margin-left: -2vw;
 
 }
 .banner__submenu-li{
@@ -494,7 +500,8 @@ input::placeholder {
     position: absolute;
 	width:17.5vw;
 	height: 5vw;
-	border-radius: 100px;
+	border-radius: 5.21vw;
+	
 		
 }
 .banner__button{
@@ -502,7 +509,7 @@ input::placeholder {
     height: 4vw;
     color: white;
     background: #9D5CD0;
-    border-radius: 100px;
+    border-radius: 5.21vw;
     font-size: 0.94vw;
     letter-spacing: 0.05vw;
    	z-index: 1;
@@ -523,6 +530,7 @@ input::placeholder {
 	font-weight: 400;
 	margin-top: 1.5vw;
 	margin-right: 8.5vw;
+	outline: none;
 }
 
 
@@ -941,22 +949,19 @@ margin-top: -2.7vw;
 	  width: 18.3vw!important;
 	  }
 	  .gallery__btn--prev {
-		  margin-top: -1vw;
+		  margin-top: -0.5vw;
 		  position: absolute;
 		  cursor: pointer;
-		  background-image: url(../img/gallery-prev.png);
-		  background-size: cover;
 		  width: 1.56vw;
 		  height: 1.56vw;
 		  z-index: 5;
 		  margin-left: 3.5vw;
+		  transform: rotate(180deg);
 	  }
 	  .gallery__btn--next {
-		  margin-top: -1vw;
+		  margin-top: -0.5vw;
 		  position: absolute;
 		  cursor: pointer;
-		  background-image: url(../img/gallery-next.png);
-		  background-size: cover;
 		  width: 1.56vw;
 		  height: 1.56vw;
 		  z-index: 5;
