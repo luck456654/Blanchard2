@@ -39,7 +39,8 @@ function changeIcon2(e){
 
 function rotateExpand(event){
     expand1=document.getElementById(event);
-    expand1.style="transform: rotate(180deg)";
+    expand1.style="transform: rotate(180deg);padding-top:0.1vw";
+    
 }
 function rotateExpand2(event){
     expand1=document.getElementById(event);

@@ -68,7 +68,7 @@
       top: 0;
       left: 0;
       bottom: 0;
-      background-color: black;
+      background-color: white;
       padding: 12.50vw;
       width: 40%;
       opacity: 0;
@@ -96,7 +96,5 @@
     .burgernav__close {
       margin-bottom: 40px;
     }
-    .nav__close{
-      margin-left: 40vw;
-    }
+   
   }
